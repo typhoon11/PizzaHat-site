@@ -4,13 +4,19 @@
     padding: 0;
 }
 
+.navbar {
+    background-color: #26262e;
+}
+
 .navbar-logo {
+    background-color: #26262e;
     border-radius: 50%;
     padding: 10px;
     margin-left: 5px;
 }
 
 .navbar-items {
+    background-color: #26262e;
     overflow: hidden;
     margin-top: -70px;
     margin-left: 85%;
@@ -18,6 +24,7 @@
 
 .navbar-items a {
     float: left;
+    background-color: #26262e;
     color: rgb(151, 151, 151);
     text-align: center;
     text-decoration: none;

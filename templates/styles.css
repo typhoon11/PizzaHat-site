@@ -49,20 +49,26 @@ p {
     border-radius: 25px;
     font-size: 20px;
     margin-top: 25px;
-    margin-left: 80px;
+    margin-left: 90px;
 }
 
 .server-invite:hover {
     background-color: #3461d1;
 }
 
+.navbar {
+    background-color: #26262e;
+}
+
 .navbar-logo {
+    background-color: #26262e;
     border-radius: 50%;
     padding: 10px;
     margin-left: 5px;
 }
 
 .navbar-items {
+    background-color: #26262e;
     overflow: hidden;
     margin-top: -70px;
     margin-left: 85%;
@@ -70,6 +76,7 @@ p {
 
 .navbar-items a {
     float: left;
+    background-color: #26262e;
     color: rgb(151, 151, 151);
     text-align: center;
     text-decoration: none;
