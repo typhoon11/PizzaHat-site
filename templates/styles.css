@@ -1,25 +1,25 @@
 * {
-    background-color: #292933;
+    background-color: #0c0c0c;
     margin: 0;
     padding: 0;
 }
 
 h1 {
     color: #456dd4;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 600;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 70px;
     padding: 50px;
-    margin-top: 50px;
-    margin-left: 35px;
+    margin-top: 20%;
+    text-align: center;
 }
 
 p {
     color: white;
-    margin-left: 90px;
+    text-align: center;
     margin-top: -20px;
     font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Inter', Arial, Helvetica;
 }
 
 .invite {
@@ -29,10 +29,10 @@ p {
     width: 170px;
     height: 50px;
     cursor: pointer;
-    border-radius: 25px;
+    border-radius: 10px;
     font-size: 20px;
     margin-top: 25px;
-    margin-left: 90px;
+    margin-left: 34%;
 }
 
 .invite:hover {
@@ -46,10 +46,10 @@ p {
     width: 150px;
     height: 50px;
     cursor: pointer;
-    border-radius: 25px;
+    border-radius: 10px;
     font-size: 20px;
     margin-top: 25px;
-    margin-left: 90px;
+    margin-left: 10%;
 }
 
 .server-invite:hover {
@@ -57,35 +57,37 @@ p {
 }
 
 .navbar {
-    background-color: #26262e;
+    background-color: #0e1015;
+    height: 80px;
 }
 
 .navbar-logo {
-    background-color: #26262e;
-    border-radius: 50%;
+    background-color: #0e1015;
     padding: 10px;
     margin-left: 5px;
 }
 
 .navbar-items {
-    background-color: #26262e;
+    background-color: #0e1015;
     overflow: hidden;
     margin-top: -70px;
-    margin-left: 85%;
+    margin-left: 6%;
 }
 
 .navbar-items a {
     float: left;
-    background-color: #26262e;
-    color: rgb(151, 151, 151);
+    background-color: #0e1015;
+    color: white;
     text-align: center;
     text-decoration: none;
-    font-size: 20px;
-    padding: 10px;
+    font-family: 'Inter', Arial, Helvetica;
+    font-size: 18px;
+    padding: 15px;
+    margin-top: 5px;
 }
 
 .navbar-items a:hover {
-    color: white;
+    color: #6590ff;
 }
 
 .navbar-items a:active {
@@ -94,8 +96,8 @@ p {
 
 .bot-logo {
     border-radius: 50%;
-    margin-left: 69%;
-    margin-top: -15%;
+    margin-left: 40%;
+    margin-top: -36%;
     max-width: 100%;
     display: block;
     animation-name: floating-logo;
