@@ -115,3 +115,19 @@ p {
     50% {transform: translate(0, 25px);}
     100% {transform: translate(0, -0px);} 
 }
+
+
+#fof-button{
+    text-decoration: none;
+    color: var(--burple);
+    box-shadow: 0px 0px 10px 5px #23272a;
+    padding: 15px 30px 10px 30px;
+    font-size: 30px;
+    border-radius: 15px;
+    transition: .75s;
+
+}
+#fof-button:hover{
+    box-shadow: 0px 0px 10px 2.5px #5865F2;
+    transition: .75s;
+}
