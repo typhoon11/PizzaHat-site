@@ -7,7 +7,7 @@
 
 h1 {
     color: white;
-    font-weight: 450;
+    font-weight: 530;
     font-size: 80px;
     padding: 50px;
     margin-top: 21%;
@@ -34,7 +34,7 @@ p {
     font-size: 20px;
     font-weight: 600;
     margin-top: 50px;
-    margin-left: 37%;
+    margin-left: 29%;
 }
 
 .invite:hover {
@@ -53,7 +53,7 @@ p {
     font-size: 20px;
     font-weight: 600;
     margin-top: 25px;
-    margin-left: 3%;
+    margin-left: 32%;
 }
 
 .server-invite:hover {
@@ -72,49 +72,11 @@ p {
 }
 
 .navbar-items {
-    background-color: #0e1015;
-    overflow: hidden;
-    margin-top: -70px;
-    margin-left: 6%;
-}
-
-.navbar-items a {
-    float: left;
-    background-color: #0e1015;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    font-family: 'Inter', Arial, Helvetica;
-    font-size: 18px;
-    padding: 15px;
-    margin-top: 5px;
-}
-
-.navbar-items a:hover {
-    color: #6590ff;
-}
-
-.navbar-items a:active {
-    color: white;
+    display: none;
 }
 
 .bot-logo {
-    border-radius: 50%;
-    margin-left: 40%;
-    margin-top: -39%;
-    max-width: 300px;
-    max-height: 300px;
-    display: block;
-    animation-name: floating-logo;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-}
-
-@keyframes floating-logo {
-    0% {transform: translate(0,  0px);}
-    50% {transform: translate(0, 25px);}
-    100% {transform: translate(0, -0px);} 
+    display: none;
 }
 
 .bot-stats {
@@ -173,7 +135,87 @@ p {
     transition: .75s;
 
 }
+
 #fof-button:hover{
     box-shadow: 0px 0px 10px 2.5px #5865F2;
     transition: .75s;
+}
+
+
+@media only screen and (min-width: 800px) {
+    .navbar {
+        background-color: #0e1015;
+        height: 80px;
+    }
+    
+    .navbar-logo {
+        background-color: #0e1015;
+        padding: 10px;
+        margin-left: 5px;
+    }
+    
+    .navbar-items {
+        background-color: #0e1015;
+        display: flex;
+        overflow: hidden;
+        margin-top: -70px;
+        margin-left: 6%;
+    }
+    
+    .navbar-items a {
+        float: left;
+        background-color: #0e1015;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-family: 'Inter', Arial, Helvetica;
+        font-size: 18px;
+        padding: 15px;
+        margin-top: 5px;
+    }
+    
+    .navbar-items a:hover {
+        color: #6590ff;
+    }
+    
+    .navbar-items a:active {
+        color: white;
+    }
+
+    .invite {
+        margin-left: 30%;
+    }
+    
+    .server-invite {
+        margin-left: 3%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .bot-logo {
+        border-radius: 50%;
+        margin-left: 40%;
+        margin-top: -39%;
+        max-width: 300px;
+        max-height: 300px;
+        display: block;
+        animation-name: floating-logo;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+
+    @keyframes floating-logo {
+        0% {transform: translate(0,  0px);}
+        50% {transform: translate(0, 25px);}
+        100% {transform: translate(0, -0px);} 
+    }
+
+    .invite {
+        margin-left: 38%;
+    }
+    
+    .server-invite {
+        margin-left: 3%;
+    }
 }
