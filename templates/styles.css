@@ -23,7 +23,7 @@ p {
 }
 
 .invite {
-    background-color: #276ab3;
+    background-color: #1b77da;
     color: white;
     border: 2px solid black;
     width: 170px;
@@ -162,9 +162,10 @@ p {
 
 #fof-button{
     text-decoration: none;
-    color: var(--burple);
+    color: white;
     box-shadow: 0px 0px 10px 5px #23272a;
     padding: 15px 30px 10px 30px;
+    margin-left: 50%;
     font-size: 30px;
     border-radius: 15px;
     transition: .75s;
