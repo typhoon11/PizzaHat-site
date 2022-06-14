@@ -165,7 +165,8 @@ p {
     color: white;
     box-shadow: 0px 0px 10px 5px #23272a;
     padding: 15px 30px 10px 30px;
-    margin-left: 50%;
+    margin-top: 15%;
+    margin-left: 40%;
     font-size: 30px;
     border-radius: 15px;
     transition: .75s;
